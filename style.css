@@ -158,30 +158,34 @@ aside a {
 
 footer {
   width: 100%;
+  padding: 2em;
+  font-size: 20px;
+}
+
+body > footer{
+  color: #ededed;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2em;
-  font-size: 20px;
 }
 
 footer i {
   font-weight: 300;
 }
 
+article > footer{
+  text-align: left;
+  margin-left: 2em;
+  background-color: #ffee;
+}
+
 article footer address {
   font-size: 12px;
   font-weight: 300;
-  text-align: center;
   line-height: 1.8em;
 }
 
 article footer h3 {
-  font-size: 25px;
-  font-weight: 400;
-}
-
-article footer{
-  background-color: #ffee;
+  font-weight: 500;
 }
